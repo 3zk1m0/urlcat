@@ -12,5 +12,8 @@ module.exports = {
   ],
   testPathIgnorePatterns: [
     'dist.*\\.ts$'
+  ],
+  modulePathIgnorePatterns: [
+    "test/deno"
   ]
 }
